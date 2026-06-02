@@ -17,7 +17,7 @@ console.log(MyName.endsWith('r'));// return true or false depending on string en
 console.log(MyName.startsWith('i'));//  return true or false depending on string starts with that particular character or not
 console.log(MyName.repeat(3));// repeat a string to n given times
 console.log(MyName.split(""));// string to array
-
+// also we can store these changes in new strings and perform more methods on it 
 
 
 
