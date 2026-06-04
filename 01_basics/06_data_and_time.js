@@ -15,5 +15,18 @@ let time=new Date(2023,3,12);
 console.log(time.getMilliseconds());
 console.log(data.getMilliseconds());
 // now we can compare both the time in questions like quizes etc
+let waqt =new Date();
+console.log(waqt.getMinutes());
+console.log(waqt.getMonth());
+console.log(waqt.getTime());
+// and many more functions like this we can apply to get desired outcome
+
+//converting miliseconds to seconds
+console.log(data.getMilliseconds()/1000);
+console.log(Math.floor(data.getMilliseconds()/1000));
+// it will print in seconds also give floor value not a decimal value
+
+
+
 
 
