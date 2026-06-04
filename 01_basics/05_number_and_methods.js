@@ -1,7 +1,7 @@
-let AccountNum=2345678987654n
+let AccountNum=2345678987654n // defined a big integer
 console.log(AccountNum);
 console.log(typeof AccountNum);
-let Array= [1,3,5,6,7]
+let Array= [1,3,5,6,7]// use to define array
 console.log(Array);
 console.log(Array.toString());
 let accountString=(AccountNum.toString());// number to string
