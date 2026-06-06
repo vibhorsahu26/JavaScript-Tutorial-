@@ -1,0 +1,29 @@
+let MyArray = [1,2,3,4]
+// in js array can store any data type which means in a array we can store int,string,another array,float and many more data tpyes
+// array works on shallow copy, which means if we do change in original array it will also reflect in duplicate array, till it is holding original array 
+let array = new Array(1,2,3,4) // this and above both declaration works same
+console.log(MyArray);
+//OUTPUT  [1 ,2 ,3 ,4]
+console.log(array);
+//same output as above
+array[2]=10 // in array changed value at index 2 to 10
+console.log(array);
+// [ 1, 2, 10, 4 ]
+MyArray=array // here we changed value of MyArray to array
+console.log(MyArray);
+console.log(array.indexOf(10)); // return index of 10 , if not present returns -1
+// if two arrays are given we can concat both using concat 
+let a1=[1,2,3,4,5]
+let a2=[6,7,8,9,10]
+let a3=a1.concat(a2) // we have to store this concated value in another variable as it returns value due to which we cannot directly print
+console.log(a3);
+let newarray=[...a1,...a2[Infinity]]
+console.log(newarray);
+// what if array inside array is given, how can we form a single array from it
+let MixedArray = [1,2,3,4,[5,6,7,8]]
+// to form a single array, which does not include array in array can be done using flat
+let ans=MixedArray.flat()
+console.log(ans);
+// or we can use spread 
+
+
