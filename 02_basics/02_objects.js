@@ -25,6 +25,7 @@ user["email"]="hello@gmail.com"
 console.log(user.email); //or console.log(user["email"]);
 user["phone_number"]=999332201 // adding new key value pair to object
 console.log(user["phone_number"]);
+console.log(user.hasOwnProperty('IsLoggedIn')); // true that means this property exists in user
 
 let MySym = Symbol("id")
 console.log(typeof MySym); // symbol
