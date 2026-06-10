@@ -67,5 +67,11 @@ let obj3={...obj1,...obj2}
 console.log(obj3);
 // { '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
 
-
-
+// object destruction
+let MyObj={
+    name:"random",
+    age:20,
+    email:"random@gmail.com"
+}
+let {name:myname} = MyObj
+console.log(myname); // prints random
