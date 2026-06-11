@@ -58,3 +58,11 @@ function AddCartValue(array){
 }
 let ans=AddCartValue(SpreadValues(100,200,300)) // calling functions and passing arguments to parameters
 console.log(ans); // prints ans 
+
+// we can also form a function as a expression
+
+const uttar = function MultiplyTwoNum(num1,num2){
+    return num1*num2
+}
+console.log(uttar(3,5)); // prints 15
+
