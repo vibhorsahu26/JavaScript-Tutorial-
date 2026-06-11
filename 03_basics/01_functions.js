@@ -33,8 +33,28 @@ DetailsofObj(MyObj)
 // function in arrays
 
 const MyArray=[1,2,3,4,5]
-function DetailOfArray(AnyArray){
+function DetailOfArray(AnyArray){ // parameters
     console.log(AnyArray);
 }
-DetailOfArray(MyArray)
+DetailOfArray(MyArray) // arguments passing
 // similarly we can perform methods, change values, print values and many more
+
+// spread operator in functions
+function SpreadValues(...num){ // rest spread, in which we bundled all the given values in array
+    return num;
+}
+SpreadValues(100,500,300)
+
+function cartvalue(val1,val2,...num){
+    console.log(num);
+}
+cartvalue(200,400,500,600) // only returns values after val1 and val2
+function AddCartValue(array){
+    let sum=0 
+    for(let i=0;i<array.length;i++){
+        sum=sum+array[i] // calculate total cart value
+    }
+    return sum; // returns sum 
+}
+let ans=AddCartValue(SpreadValues(100,200,300)) // calling functions and passing arguments to parameters
+console.log(ans); // prints ans 
