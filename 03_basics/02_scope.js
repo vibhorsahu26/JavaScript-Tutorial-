@@ -42,3 +42,30 @@
 //     // declaration of socpe
 // }
 
+// function one(){
+//     const username = "vibhor"
+//     function two(){
+//         const website = "youtube"
+//         console.log(username); 
+//     }
+//     console.log(website); // we cannot access website outside the function 
+//     two()
+    
+// }
+// one()
+
+
+
+// Greeting() // in a function we can access it value anywhere in a code 
+
+// result() // if we try to access it here it will throw error , as it does not know where our function is defined
+// function Greeting(){
+//     console.log("hello dear");
+    
+// }
+// const result = function greet(){ // if function is defined as a expression we can access it value only after declaration 
+//     console.log("hello dear");
+    
+// }
+// result() // if we access here, it will not throw any error 
+
