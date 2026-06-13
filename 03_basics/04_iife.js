@@ -26,5 +26,11 @@
     )
 )("vibhor"); // also an example of iife in which we are passing argument to our arrow function
 
+
+(
+    function GreetUser(username){
+        console.log(`${username}, Welcome onboard`);
+    }("Vibhor")
+)
 // named iife can be said when we write function using function keyword
 // unnamed iife can be said when we write arrow function
