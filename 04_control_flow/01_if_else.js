@@ -78,3 +78,23 @@ else{
     console.log("false");
 }
 
+// nullish coalescing operator (??)
+
+let val;
+val = 2 ?? 3
+console.log(val); // prints 2
+
+val = null ?? 10
+console.log(val); // prints 10
+
+// ?? it is used to avoid null values in program, if the value is null ?? operator will return the another value
+
+// ? (ternary operator) and ?? are two diferent operators 
+// ?? used to avoid null values, whereas ? is used as if else in program
+
+let price = 101
+price>100 ? console.log("price is greater than 100") : console.log("price is less than 100");
+
+// this is how ? operator works
+
+
