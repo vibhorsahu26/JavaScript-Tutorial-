@@ -7,8 +7,8 @@ let MyArray = [1,2,3,4,5]
 //     console.log(MyArray);
 // })
 
-MyArray.forEach((MyArray)=>{ // here we have created a arrow function
-    console.log(MyArray); 
+MyArray.forEach((item)=>{ // here we have created a arrow function
+    console.log(item); 
 })
 
 function print(anyarray){
