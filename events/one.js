@@ -36,3 +36,14 @@ document.getElementById("grandparent").addEventListener("click", () => {
 document.getElementById("parent").addEventListener("click", () => {
     console.log("Parent");
 },false);
+
+document.querySelector('#images').addEventListener('click',function(e){
+    console.log(e.target.tagName);
+    if(e.target.tagName==='IMG'){
+        
+        let removeIt=e.target.parentNode
+        console.log(removeIt);
+        removeIt.remove()
+        
+    }
+})
