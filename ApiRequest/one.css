@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.btn{
+    color: black;
+    background-color: rgb(146, 175, 175);
+}
+.banner{
+    background-color: aliceblue;
+    color: black;
+}
